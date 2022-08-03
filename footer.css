@@ -10,8 +10,7 @@ Footer div h3,
     font-family: Dosis, sans-serif;
     font-weight: 600;
 }
-#About_Conficons {
-    padding: 50px 0;    
+#About_Conficons {    
     text-align: center; 
     background-color: white;
 }
@@ -19,14 +18,14 @@ Footer div h3,
     font-size: 36px;
     color: #191A1C;
     font-weight: 700;
-    padding: 200px 0 50px;
+    padding: 100px 0 50px;
 }
 #About_Conficons div p {
     color: #323337;
     line-height: 1.4rem;    
     padding-bottom: 100px;
-    width: 70%;    
-    font-size: 18px;
+    width: 80%;    
+    font-size: 17px;
     margin: 0 auto;   
 }
 #for_gap {
@@ -60,12 +59,11 @@ footer {
 footer div#footer_top, footer div#footer_special {
     display: flex;
     line-height: 2.5rem;
-    justify-content: space-evenly;    
-    font-size: 15px;
+    justify-content: space-evenly;        
     font-weight: normal;    
 }
 footer div#footer_special{
-    width: 70%;
+    width: 60%;
     justify-content: space-between;
     padding-bottom: 80px;
 }
@@ -74,13 +72,15 @@ div.group {
 } 
 span.spec {
     font-weight: normal;
-    font-size: 16px;
+    font-size: 17px;
     display: block;
     color: #D6D6D7;
 }
+.footer_column1{
+    text-align: center;
+}
 footer div#footer_top div span img{
-    width: 60px;
-    filter: opacity(0.8) drop-shadow(0 0 0 white);
+    width: 120px;    
 }
 div.icons {
     display: flex;
@@ -90,26 +90,33 @@ div.icons {
     color: white;
     font-size: 30px;
 }
+footer div.copy-icon{
+    display: flex;
+    justify-content: space-evenly;
+}
 .copyright {
     color: white;
-    font-size: 18px;
-    text-align: center;
+    font-size: 18px;    
     font-family: Dosis, sans-serif;
     font-weight: 400;
 }
-
+a#arrowup i{
+    color: white;
+    font-size: 35px;
+}
 @media(max-width:768px) {    
     /* *, body, html{
         width: 100%;
     } */
     #About_Conficons {
         background-color: #56CCF2;
+        padding: 50px 0;
     }
     #About_Conficons div h2 {        
         padding: 100px 0 50px;
     }
     #About_Conficons div p {
-        padding-bottom: 0;        
+        padding-bottom: 80px;        
         width: 80%;    
         font-size: 15px;        
         font-weight: 400;
@@ -117,7 +124,7 @@ div.icons {
     div.fav {
         justify-content:space-evenly;        ;    
         background-color: white;
-        padding: 70px 0 200px;
+        padding: 50px 0 20px;
     }
     div.fav img{
         width: 35px;
@@ -145,7 +152,7 @@ div.icons {
         display: block;
     }    
     footer div#footer_top div span img{
-        width: 25px;
+        width: 100px;
     }
     footer {
         background-color: #232330;  
@@ -177,6 +184,10 @@ div.icons {
         font-family: Dosis, sans-serif;
         font-weight: 400;
     }
+    a#arrowup i{
+        color: white;
+        font-size: 25px;
+    }    
 }    
 @media(max-width:400px) {
     *, html {
@@ -184,18 +195,19 @@ div.icons {
         padding: 0%;    
     }
     #About_Conficons div h2 {        
-        padding: 100px 0 50px;
+        padding-bottom: 30px;
     }
     #About_Conficons div p {
-        padding-bottom: 0;        
+        padding-bottom: 50px;        
         width: 80%;    
         font-size: 14px;        
-        font-weight: 400;
+        font-weight: normal;
+        line-height: 1.3rem;
     }    
     div.fav {
         justify-content:space-evenly;        ;    
         background-color: white;
-        padding: 70px 0 120px;
+        padding: 50px 0 0;
     }
     div.fav img{
         width: 25px;
@@ -233,7 +245,7 @@ div.icons {
         display: block;
     }    
     footer div#footer_top div span img{
-        width: 20px;
+        width: 80px;
     }
     footer {
         background-color: #232330;  
@@ -265,4 +277,8 @@ div.icons {
         font-family: Dosis, sans-serif;
         font-weight: 400;
     }
+    a#arrowup i{
+        color: white;
+        font-size: 20px;
+    }    
 }    
