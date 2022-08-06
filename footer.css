@@ -18,28 +18,24 @@ Footer div h3,
     font-size: 36px;
     color: #191A1C;
     font-weight: 700;
-    padding: 100px 0 50px;
+    padding: 100px 0 20px;
 }
 #About_Conficons div p {
     color: #323337;
-    line-height: 1.4rem;    
+    line-height: 2.4rem;    
     padding-bottom: 100px;
-    width: 80%;    
+    width: 75%;    
     font-size: 17px;
     margin: 0 auto;   
+    font-weight: normal;
 }
-#for_gap {
-    background-color: white;
-}
-
 div.fav {
     display: flex;
     justify-content:space-evenly;
     background-color: #232330;
     padding: 70px 0;
 }
-Footer div h3,
-Footer div span {
+Footer div h3 {
     color: white;
     font-size: 20px;
 }
@@ -48,6 +44,7 @@ Footer div a {
     font-weight: 500;
     font-size: 16px;
     display: block;
+    
 }
 Footer div a:hover {
     color: rgba(0, 128, 0, 0.927);
@@ -58,17 +55,17 @@ footer {
 }
 footer div#footer_top, footer div#footer_special {
     display: flex;
-    line-height: 2.5rem;
+    line-height: 3.5rem;
     justify-content: space-evenly;        
     font-weight: normal;    
 }
 footer div#footer_special{
-    width: 60%;
+    width: 50%;
     justify-content: space-between;
     padding-bottom: 80px;
 }
 div.group {
-    width: 20%;
+    width: 25%;
 } 
 span.spec {
     font-weight: normal;
@@ -85,6 +82,7 @@ footer div#footer_top div span img{
 div.icons {
     display: flex;
     justify-content: space-between;
+    padding-top: 20px;
 }
 .Icons i {
     color: white;
@@ -108,38 +106,36 @@ a#arrowup i{
     /* *, body, html{
         width: 100%;
     } */
-    #About_Conficons {
-        background-color: #56CCF2;
-        padding: 50px 0;
-    }
     #About_Conficons div h2 {        
-        padding: 100px 0 50px;
+        padding: 100px 0 20px;
     }
     #About_Conficons div p {
-        padding-bottom: 80px;        
+        padding-bottom: 150px;        
         width: 80%;    
-        font-size: 15px;        
-        font-weight: 400;
+        font-size: 16px;        
+        font-weight: normal;
     }    
     div.fav {
-        justify-content:space-evenly;        ;    
-        background-color: white;
-        padding: 50px 0 20px;
-    }
+        display: flex;
+        justify-content:space-evenly;
+        background-color: #232330;
+        padding: 70px 0;
+    }    
     div.fav img{
         width: 35px;
     }
-    Footer div h3,
-    Footer div span {
+    Footer div h3 {
         color: white;
         font-size: 30px;
     }
     span.spec {
-        font-weight: 100;
-        font-size: 24px;        
+        font-size: 18px;
+        font-weight: normal;        
     }
     div.icons {
-        display: flex;            
+        display: flex;
+        justify-content: center;
+        gap: 4.5em;            
     }
     .Icons i {
         color: white;
@@ -150,6 +146,7 @@ a#arrowup i{
         font-weight: 500;
         font-size: 16px;
         display: block;
+        padding: 10px 0;
     }    
     footer div#footer_top div span img{
         width: 100px;
@@ -160,7 +157,7 @@ a#arrowup i{
     }
     footer div#footer_top, footer div#footer_special {
         display: block;
-        line-height: 2.9rem;
+        line-height: 3.9rem;
         text-align: center;    
         font-size: 15px;
         font-weight: normal;    
@@ -169,57 +166,66 @@ a#arrowup i{
         display:flex;
         flex-wrap: wrap;  
         line-height: 2.0rem;
-        width: 100%;        
-        text-align: start;
+        width: 100%;  
+        justify-content: center;      
+        text-align: justify;
         padding: 50px 0;
     }
     div.group {
         width: 40%;
-        margin: 0 auto;
     } 
      .copyright {
         color: white;
         font-size: 18px;
         text-align: center;
         font-family: Dosis, sans-serif;
-        font-weight: 400;
+        font-weight: normal;
     }
     a#arrowup i{
+        display: none;
         color: white;
         font-size: 25px;
     }    
 }    
 @media(max-width:400px) {
-    *, html {
+    /* *, html {
         margin: 0%;
         padding: 0%;    
+    } */
+    #About_Conficons div h2 {
+        font-size: 18px;
+        color: #191A1C;
+        font-weight: 400;
+        padding: 50px 0 10px;
     }
-    #About_Conficons div h2 {        
-        padding-bottom: 30px;
-    }
-    #About_Conficons div p {
-        padding-bottom: 50px;        
-        width: 80%;    
-        font-size: 14px;        
+        #About_Conficons div p {
+        padding-bottom: 80px;        
+        width: 85%;    
+        font-size: 13px;        
         font-weight: normal;
-        line-height: 1.3rem;
+        line-height: 1.5rem;
     }    
     div.fav {
-        justify-content:space-evenly;        ;    
-        background-color: white;
-        padding: 50px 0 0;
+        display: flex;
+        justify-content: center;
+        background-color: #232330;
+        padding: 30px 0;
+        gap: 1.7em;
     }
-    div.fav img{
-        width: 25px;
-        height: 25px;
+        div.fav img{
+        width: 20px;
+        height: 20px;
     }
-    Footer div h3{
-        font-size: 16px;
+    footer div#footer_top, footer div#footer_special {
+        display: flex;
+        line-height: 1.0rem;
+        justify-content: space-evenly;        
+        font-weight: normal;    
     }
-    Footer div h3,
-    Footer div span {
+    
+    Footer div h3{ 
         color: white;
-        font-size: 22px;
+        font-size: 16px;
     }
     Footer div h3{
         font-size: 14px;
@@ -227,16 +233,18 @@ a#arrowup i{
     }
     span.spec {
         font-weight: 100;
-        font-size: 15px;   
-        
+        font-size: 12px;   
+        font-weight: normal;
     }
     div.icons {
         display: flex;        
-        justify-content: space-evenly;        
+        justify-content: center;
+        gap: 3.5em;
+        padding-top: 5px;
     }
     .Icons i {
         color: white;
-        font-size: 20px;        
+        font-size: 15px;        
     }   
     Footer div a {
         color: #98999B;
@@ -266,18 +274,27 @@ a#arrowup i{
         text-align: start;
         padding: 30px 0;
     }
+    footer div#footer_special{
+        display:flex;
+        flex-wrap: wrap;  
+        line-height: 2.0rem;
+        width: 100%;  
+        justify-content: center;      
+        text-align: justify;
+        padding: 50px 0;
+    }
     div.group {
         width: 40%;
-        margin: 0 auto;
     } 
      .copyright {
         color: white;
-        font-size: 18px;
+        font-size: 13px;
         text-align: center;
         font-family: Dosis, sans-serif;
-        font-weight: 400;
+        font-weight: normal;
     }
     a#arrowup i{
+        display: none;
         color: white;
         font-size: 20px;
     }    
